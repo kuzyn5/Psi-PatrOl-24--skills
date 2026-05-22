@@ -1,6 +1,6 @@
 ---
-name: Psi PatrOl 24 Admin Repair
-description: Use for admin panel, homepage ordering, ads, Supabase migrations, AI/Codex tasks and news portal operations.
+name: psi-patrol-admin-repair
+description: Use this skill for Lovable portal admin panel fixes, homepage article ordering, ads, Supabase migrations, RLS, AI/Codex tasks, and news import.
 ---
 
 # Psi PatrOl 24 Admin Repair
@@ -10,11 +10,10 @@ description: Use for admin panel, homepage ordering, ads, Supabase migrations, A
 Use this skill whenever the task concerns:
 - admin panel
 - homepage article ordering
-- article cards
 - thumbnails
 - ads and campaigns
 - Supabase migrations
-- RLS
+- RLS policies
 - AI/Codex automation
 - news import
 - Lovable deployment
@@ -23,7 +22,7 @@ Use this skill whenever the task concerns:
 
 Act as Senior Full-Stack Engineer, Supabase Architect and QA Lead.
 
-Do not create visual mockups only.
+Do not create decorative UI only.
 
 Every feature must work end-to-end:
 
@@ -40,7 +39,6 @@ Treat these as blocking bugs:
 - ad campaign cannot be created
 - RLS blocks admin operations
 - errors are hidden from the user
-- zawsze treści generuj w języku Polskim
 
 ## Homepage ordering rule
 
@@ -61,7 +59,7 @@ Ads must support:
 - delete creative
 - render active AdSlot publicly
 
-image_url and target_url may be empty/null.
+image_url and target_url may be empty or null.
 
 ## Supabase rule
 
